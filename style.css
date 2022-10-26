@@ -1,0 +1,251 @@
+.bc{
+    min-height: 100vh;
+    background-color: rgb(183, 241, 224);
+    margin: auto;
+    padding: auto;
+    z-index: 1;
+    opacity: 0.8;
+}
+.mycarou{
+    z-index: 2;
+}
+.parallax {
+    background-image: url("תינוק\ בצד.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.stco{
+    text-align: center;
+    color: rgb(22, 197, 145);
+}
+/* הוספתי כאן מדיה אחרי שהתחלתי בהקריו */
+@media (min-width:600px) and (max-width:992px){
+    
+    .stco{
+        font-size: 0.5rem;
+        color: rgb(0, 2, 1);
+    } 
+    .font-media
+    {
+        font-size: 2rem;
+    }   
+}
+.bgcn{
+    background-color: seashell;
+    border: black 1px solid;
+}
+
+.fixed{
+    position: fixed;
+    top: 0%;
+    z-index: 3;
+}
+.footer{
+    background-color: seashell; 
+    height: 12vh; 
+    border: 1px solid black;
+    font-size: 2vh;
+    position: absolute;
+    bottom: 0%;
+}
+.infooter{
+    height:12vh;
+}
+
+.ttc{
+    color: rgb(22, 197, 145);
+    text-align: right  
+}
+.hover{
+    color:rgb(22, 197, 145);
+    font-size: 2vh;
+}
+
+.hover:hover{
+   color: black;
+}
+
+.mycolo{
+    animation: colo 1s infinite;
+    
+}
+
+@keyframes colo {
+    50%  {color:black;}
+}
+
+.mycolor1{
+    color: rgb(183, 241, 224);
+    animation: color 3s 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+100%{
+    color:rgb(22, 197, 145);
+}
+    
+
+}
+.mycolor2{
+    color: rgb(183, 241, 224);
+    animation: color 3s 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor3{
+    color: rgb(183, 241, 224);
+    animation: color 3s 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor4{
+    color: rgb(183, 241, 224);
+    animation: color 3s 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor5{
+    color: rgb(183, 241, 224);
+    animation: color 3s 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor6{
+    color: rgb(183, 241, 224);
+    animation: color 3s 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor7{
+    color: rgb(183, 241, 224);
+    animation: color 3s 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+.mycolor8{
+    color: rgb(183, 241, 224);
+    animation: color 3s 11s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+    color:rgb(22, 197, 145);
+}
+}
+
+.mycard{
+    background-color:rgb(183, 241, 224) ;
+    text-align: right;
+    color:rgb(22, 197, 145);
+   
+}
+.mycard1{
+    background-color:rgb(248, 241, 236) ;
+    text-align: right;
+    color:rgb(22, 197, 145);
+   
+}
+.myimg{
+    width: 25vw;
+    border: 10px solid  rgb(248, 241, 236);
+    margin-top: 5%;
+}
+
+.grid{
+    height: 20vh;
+    background-color:rgb(248, 241, 236) ;
+    color: rgb(22, 197, 145);
+    text-align: right;
+}
+.try1{
+    background-color:rgb(183, 241, 224);
+    height: 20vh;
+    padding: 0%;
+}
+.try12{
+    background-color:rgb(183, 241, 224);
+    height:30vh;
+    padding: 0%;
+}
+
+.media {
+    height: 15vh;
+    width:100vw;
+    color:rgb(22, 197, 145);
+    background-color: rgb(248, 241, 236);
+    border: 1px solid black;
+    border-radius: 20%;
+    display: inline-block;
+    font-size: 2.5vh;
+}
+
+
+@media (min-width:600px) and (max-width:992px){
+    .media{
+        height: 10vh;
+        width:23vw;
+     }
+     .larg{
+        display: none;
+    }
+     
+}
+@media (min-width:992px){
+    .media {
+        height: 10vh;
+        width:6vw;
+        color:rgb(22, 197, 145);
+        background-color: rgb(248, 241, 236);
+        border: 1px solid black;
+        display: inline-block;
+    }
+    .med{
+        display: none;
+    }
+    .larg{
+        display: none;
+    }
+}
+.wimg1{
+    width: 90%;
+}
+/* .ttry{
+    font-size: 6vh;
+} */
+
+
